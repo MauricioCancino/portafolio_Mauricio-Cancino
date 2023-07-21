@@ -10,7 +10,7 @@
         ></v-img>
       </v-col>
       <v-col>
-        <h1>Mauricio Ignacio Cancino Contreras</h1> Front End developer Vue JS
+        <h1><u>Mauricio Ignacio Cancino Contreras</u></h1> Front End developer Vue JS
        <v-divider></v-divider>
        <div>
         <v-text>

@@ -2,32 +2,34 @@
 <v-container>
     <br>
     <br>
-    <CardsHome/>
+    <CardsProject/>
     </v-container>
 </template>
 
 <script>
-import CardsHome from '@/components/CardsHome.vue'
-import { mapActions } from 'vuex'
+import CardsProject from '@/components/CardsProject.vue'
+import { mapActions,mapState } from 'vuex'
 export default {
     name: 'categories-view',
     // props: {},
     data: function(){
         return {}
     },
-    // computed: {},
+    computed: {
+        ...mapState(['proyectsPage'])
+    },
     methods: {
-        ...mapActions(['fetchInfo'])
+        ...mapActions(['fetchProjects'])
     },
     // watch: {},
     components: {
-        CardsHome
+        CardsProject
     },
     // mixins: [],
     // filters: {},
     // -- Lifecycle Methods
     created() {
-    this.fetchInfo()}
+    this.fetchProjects()}
     // -- End Lifecycle Methods
 }
 </script>

@@ -1,0 +1,22 @@
+{
+    "proyectsPage": [
+        {
+          "name": "Proyectos nivel Principiante",
+          "text": "Aquí encontrarás un redireccionamiento hacia la vista con mis proyectos de nivel básico.",
+          "image": "https://i.imgur.com/9vxPITy.png",
+          "page": "https://portafolio-mauricio-cancino.vercel.app/firstProjects"
+        },
+        {
+          "name": "Proyectos nivel Intermedio",
+          "text": "Aquí encontrarás un redireccionamiento hacia la vista con mis proyectos de nivel intermedio",
+          "image": "https://i.imgur.com/YyxWeUL.png",
+          "page": "https://portafolio-mauricio-cancino.vercel.app/interProjects"
+        },
+        {
+          "name": "Proyectos nivel Avanzado",
+          "text": "Aquí encontrarás un redireccionamiento hacia la vista con mis proyectos avanzados",
+          "image": "https://i.imgur.com/oySmACK.png",
+          "page":"https://portafolio-mauricio-cancino.vercel.app/advancedProjects"
+        }
+      ]
+}

@@ -10,6 +10,7 @@ export default new Vuex.Store({
     proyectosBegin: [],
     proyectosInter: [],
     proyectosAdvanced: [],
+    CardsProjects:[],
   },
   getters: {
   },
@@ -29,6 +30,9 @@ export default new Vuex.Store({
      SET_PROYECTOS_ADVANCED(state,proyectosAdvanced){
       state.proyectosAdvanced = proyectosAdvanced
      },
+     SET_PROYECTS_PAGE(state,proyectsPage){
+      state.proyectsPage = proyectsPage
+     }
   },
   actions: {
     async fetchInfo({commit}){
@@ -81,6 +85,20 @@ export default new Vuex.Store({
         let proyectosAdvanced=json.proyectosAdvanced
        
         commit('SET_PROYECTOS_ADVANCED',proyectosAdvanced)
+        
+      }
+      catch(error){
+        console.log(error)
+      }
+    },
+    async fetchProjects({commit}){
+      try{
+        let response = await fetch("/JSON/proyectsPage.json")
+        let json = await response.json()  
+        console.log(json)
+        let proyectsPage=json.proyectsPage
+       
+        commit('SET_PROYECTS_PAGE',proyectsPage)
         
       }
       catch(error){

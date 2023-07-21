@@ -29,20 +29,19 @@
       {
         "name": "Categorías",
         "text": "Aquí podrás encontrar las categorías respecto a mis proyectos y sus niveles correspondientes.",
-        "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "image": "https://i.imgur.com/HNxASdI.png",
         "route": "categories",
-        "page": "https://chat-interface-iota.vercel.app/"
+        "page": "https://portafolio-mauricio-cancino.vercel.app/categories"
       },
       {
         "name": "Curriculum",
         "text": "Aquí podrás encontrar una mirada directa hacia mi Curriculum Vitae.",
         "image": "https://i.imgur.com/HgTUyrA.png",
-        "route": "projects",
         "page": "https://www.canva.com/design/DAFo__s_Pss/RV5piQdOevLLNkJV1SQSTg/view?utm_content=DAFo__s_Pss&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
       },
       {
         "name": "Acerca de mí",
-        "text": "Aquí encontrarás un redireccionamiento hacia la vista con mis datos de contacto e información acerca de mí.",
+        "text": "Aquí encontrarás un redireccionamiento hacia la vista con mis datos de contacto e información.",
         "image": "https://i.imgur.com/YRAtJcz.png",
         "route": "contactMe",
         "page":"contactMe"
