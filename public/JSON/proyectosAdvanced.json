@@ -1,0 +1,51 @@
+{
+    "proyectosAdvanced": [
+        {
+        "id":"1",
+        "page": "https://prueba-certificacion.vercel.app/",
+        "name": "Prueba de certificación Vue JS",
+        "image":"https://i.imgur.com/ufBx7uJ.png",
+        "text":"Página que simula un market place, con un carrito de compras funcional el cual muestra los datos y permite añadir o eliminar productos.",
+        "subtext":"Uso de Vue JS, Vuetify, JSON, Vuex, Vue router"
+        },
+       {"id":"2",
+       "page":"https://gestion-cursos.vercel.app/",
+       "name":"Gestión de cursos",
+       "image":"https://i.imgur.com/mrHXK0b.png",
+       "text":"Página que presenta cursos disponibles para tomar, la cual cuenta con vista de administración que contiene  diversas opciones en su interior.",
+       "subtext":"Uso de Vue JS, Vuetify, Vuex, Vue router"    
+    },
+        {
+        "id":"3",
+        "page":"https://music-library-nine.vercel.app/",
+        "name":"Music Library",
+        "image":"https://i.imgur.com/e9OcVR5.png",
+        "text":"Librería de música que presenta algunos artistas, y que permite ir añadiendo álbumes y seleccionar la categoría (género) a la que pertenecen.",
+        "subtext":"Uso de Vue JS, Bootstrap, Vuex, Vue router"
+        },
+        {
+        "id":"4",
+        "page":"https://heroes-vuex-vuetify.vercel.app/",
+        "name":"Heroes Table",
+        "image":"https://i.imgur.com/HV1NvIJ.png",
+        "text":"Proyecto que trae datos de distintos héroes pertenecientes al juego Heroes of the Storm, y que muestra información acerca de ellos en una tabla.",
+        "subtext":"Uso de Vue JS, Vuetify, Vuex, Vue router, JSON"
+        },
+        {
+        "id":"5",
+        "page":"https://games-api-info.vercel.app/",
+        "name":"Games Api",
+        "image":"https://i.imgur.com/fWjmuZX.png",
+        "text":"Página que trae los datos de una API, y que permite revisar info acerca de cada juego. Para consumir se utilizó una Key propia de esta.",
+        "subtext":"Uso de Vue JS, API Rest, Bootstrap, Vue router"
+        },
+        {
+        "id":"6",
+        "page":"https://star-wars-api-weld.vercel.app/personajes",
+        "name":"Star Wars Api",
+        "image":"https://i.imgur.com/t8kag1f.png",
+        "text":"Página sencilla que mediante el uso de una API, busca mostrar los personajes de la cadena de películas y su info correspondiente.",
+        "subtext":"Uso de Vue JS, Bootstrap, API Rest, Vue router "
+        }
+]
+}

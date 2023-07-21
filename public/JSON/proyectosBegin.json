@@ -1,0 +1,28 @@
+{
+    "proyectosBegin": [
+        {
+        "id":"1",
+        "page": "https://chat-interface-iota.vercel.app/",
+        "image":"https://i.imgur.com/7ym08ZC.png",
+        "name": "Interfaz de chat",
+        "text":"Interfaz de chat realizado utilizando solo CSS, inspirado en personajes del reconocido juego Genshin Impact.",
+        "subtext":"Uso de CSS, HTML"
+        },
+       {"id":"2",
+       "page":"https://nimrodel-restaurant.vercel.app/",
+       "image":"https://i.imgur.com/V43RzWh.png",
+       "name":"Nimrodel Restaurant",
+       "text":"Primer proyecto de Restaurante básico solo utilizando HTML y CSS el cual incluye formularios de contacto y reserva.",
+       "subtext":"Uso de CSS, HTML, Bootstrap"
+        },
+        {
+        "id":"3",
+        "page":"https://numero-mayor.vercel.app/",
+        "image":"https://i.imgur.com/OV9mrJ2.png",
+        "name":"Número mayor",
+        "text":"Proyecto el cual se utiliza para calcular qué número es mayor, y realizar operaciones matemáticas varias.",
+        "subtext":"HTML, CSS, Bootstrap, JS"
+        }
+
+]
+}

@@ -1,0 +1,51 @@
+{
+    "Carrusel": [
+      {
+        "id": 1,
+        "image": "https://i.imgur.com/ufBx7uJ.png"
+      },
+      {
+        "id": 2,
+        "image": "https://i.imgur.com/mrHXK0b.png"
+      },
+      {
+        "id": 3,
+        "image": "https://i.imgur.com/7ym08ZC.png"
+      },
+      {
+        "id": 4,
+        "image": "https://i.imgur.com/KVdGA2H.png"
+      },
+      {
+        "id": 5,
+        "image": "https://i.imgur.com/DC2Gpul.png"
+      },
+      {
+        "id": 6,
+        "image": "https://i.imgur.com/b91uZKn.png"
+      }
+    ],
+    "CardsContent": [
+      {
+        "name": "Categorías",
+        "text": "Aquí podrás encontrar las categorías respecto a mis proyectos y sus niveles correspondientes.",
+        "image": "https://fakestoreapi.com/img/71kWymZ+c+L._AC_SX679_.jpg",
+        "route": "categories",
+        "page": "https://chat-interface-iota.vercel.app/"
+      },
+      {
+        "name": "Curriculum",
+        "text": "Aquí podrás encontrar una mirada directa hacia mi Curriculum Vitae.",
+        "image": "https://i.imgur.com/HgTUyrA.png",
+        "route": "projects",
+        "page": "https://www.canva.com/design/DAFo__s_Pss/RV5piQdOevLLNkJV1SQSTg/view?utm_content=DAFo__s_Pss&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+      },
+      {
+        "name": "Acerca de mí",
+        "text": "Aquí encontrarás un redireccionamiento hacia la vista con mis datos de contacto e información acerca de mí.",
+        "image": "https://i.imgur.com/YRAtJcz.png",
+        "route": "contactMe",
+        "page":"contactMe"
+      }
+    ]
+  }

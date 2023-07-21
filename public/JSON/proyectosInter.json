@@ -1,0 +1,28 @@
+{
+    "proyectosInter": [
+        {
+        "id":"1",
+        "page": "https://calcular-presupuesto-roan.vercel.app/",
+        "name": "Calculador de presupuesto",
+        "image":"https://i.imgur.com/BsaQLrB.png",
+        "text":"Proyecto en el cual puedes declarar tu presupuesto, añadir productos y revisar los gastos y el total disponible para comprar.",
+        "subtext":"Uso de HTML, CSS, JS, Bootstrap"
+        },
+       {"id":"2",
+       "page":"https://eport-fly.vercel.app/",
+       "name":"Asignación de vuelo",
+       "image":"https://i.imgur.com/b91uZKn.png",
+       "text":"Página en la cual te muestra infromación acerca de tu vuelo, captando la fecha y hora local. Utiliza funciones para mostrar el n° de vuelo y terminal.",
+       "subtext":"Uso de HTML, CSS, JS, Bootstrap"
+        },
+        {
+        "id":"3",
+        "page":"https://star-wars-characters-liard.vercel.app/",
+        "name":"Star Wars Time Line",
+        "image":"https://i.imgur.com/DC2Gpul.png",
+        "text":"Timeline que permite hacer llamado a los personajes principales de la película Star Wars, y mostrar información acerca de ellos.",
+        "subtext":"Uso de HTML, CSS, JS, API, Bootstrap"
+        }
+
+]
+}

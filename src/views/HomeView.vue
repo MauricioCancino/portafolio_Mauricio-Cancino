@@ -1,18 +1,47 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-container justify='center'>
+    
+    <h2>Algunas imágenes de mis proyectos realizados previamente</h2>
+    <Carousel/>
+    <v-divider></v-divider>
+    <br>
+      <v-row>
+      <CardsHome/>
+      </v-row>
+        
+      
+  </v-container>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import Carousel from '@/components/Carousel.vue'
+import CardsHome from '@/components/CardsHome.vue'
+import { mapActions,mapState } from 'vuex'
 export default {
-  name: 'HomeView',
+  name: 'home-view',
+  // props: {},
+  data: function(){
+    return {}
+  },
+  computed: {
+    ...mapState(['Carrusel','CardsContent'])
+  },
+  methods: {
+  ...mapActions(['fetchInfo'])
+  },
+  // watch: {},
   components: {
-    HelloWorld
-  }
+    Carousel, CardsHome
+  },
+  // mixins: [],
+  // filters: {},
+  // -- Lifecycle Methods
+  created() {
+    this.fetchInfo()}
+  // -- End Lifecycle Methods
 }
 </script>
+
+<style scoped>
+  
+</style>
